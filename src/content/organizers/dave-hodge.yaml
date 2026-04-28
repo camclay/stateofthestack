@@ -1,0 +1,21 @@
+name: David Hodge
+role: organizer
+company: Leidos
+bio: >-
+  I discovered programming writing BASIC on a Commodore 64, and I've been
+  chasing that same spark ever since — now 20+ years deep, across IT
+  consulting, custom software and web development, and cloud architecture.
+  I've led teams in both the public and private sectors across a
+  variety of industries, and what I really enjoy is solving problems and helping teams deliver
+  quality software more often. These days I spend most of my time at the
+  intersection of developer enablement and applied AI, and I've
+  been volunteering with the DC DevOps community since 2019. I tend to equate developing software to martial arts
+  and my favorite software book is the Tao of Jeet Kune Do by Bruce Lee.
+photo: /src/assets/organizers/dave-hodge/photo.jpg
+socialLinks:
+  - platform: linkedin
+    url: https://www.linkedin.com/in/davidyuctanhodge/
+  - platform: github
+    url: https://github.com/davezen1
+  - platform: website
+    url: https://medium.com/@david.hodge
