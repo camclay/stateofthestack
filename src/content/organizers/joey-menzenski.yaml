@@ -1,0 +1,17 @@
+name: Joey Menzenski
+role: organizer
+company: MITRE
+bio: >-
+  I am a Principal Software Engineer at The MITRE Corporation in McLean,
+  Virginia where I do full stack development as part of the Transportation
+  Innovation Center. My interests focus around mobile technology in aviation
+  operations and modernization operations with cloud technology. Passionate
+  about DevOps and process automation.
+photo: /src/assets/organizers/joey-menzenski/photo.jpg
+socialLinks:
+  - platform: website
+    url: https://bsky.app/profile/did:plc:gjn7d2p5t6ebdxy3krt3kxye
+  - platform: linkedin
+    url: https://www.linkedin.com/in/joseph-menzenski/
+  - platform: github
+    url: https://github.com/znemski
