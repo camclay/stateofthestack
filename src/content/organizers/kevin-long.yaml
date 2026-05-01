@@ -1,0 +1,16 @@
+name: Kevin Long
+role: organizer
+company: MITRE
+bio: >-
+  I’m a Principal Software Engineer and tech lead with nearly twenty years of
+  experience building and modernizing complex systems. I’m passionate about
+  DevOps, GitOps, and finding ways to streamline software delivery through
+  automation. When I’m not architecting CI/CD pipelines or mentoring teams, I’m
+  usually focused on tackling technical debt and scaling distributed
+  environments.
+photo: /src/assets/organizers/kevin-long/photo.jpeg
+socialLinks:
+  - platform: linkedin
+    url: https://www.linkedin.com/in/kevinmichaellong/
+  - platform: github
+    url: https://github.com/kevinmlong
