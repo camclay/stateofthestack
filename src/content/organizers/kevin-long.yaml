@@ -3,9 +3,9 @@ role: organizer
 company: MITRE
 bio: >-
   I’m a Principal Software Engineer and tech lead with twenty years of
-  experience building and modernizing complex systems. I’m passionate about
-  DevOps, GitOps, and finding ways to streamline software delivery through
-  automation.
+  experience building and modernizing complex systems in the transportation,
+  defense, and homeland security domains. I’m passionate about DevOps, GitOps,
+  and finding ways to streamline software delivery through automation.
 photo: /src/assets/organizers/kevin-long/photo.jpeg
 socialLinks:
   - platform: linkedin
