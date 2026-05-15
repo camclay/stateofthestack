@@ -1,0 +1,18 @@
+name: Max Kanat-Alexander
+title: Executive Distinguished Engineer, Capital One
+bio: >-
+  Max is an Executive Distinguished Engineer at Capital One, where he helps set
+  the company's strategy for AI-assisted software development. Before that, he
+  was the Chief Architect of the Bugzilla Project, then the Tech Lead for Code
+  Health at Google, and then one of the Tech Leads for Developer Productivity
+  and Happiness at LinkedIn. He has written two books, <a
+  href="https://www.codesimplicity.com/book/" target="_blank"
+  rel="noopener"><i>Code Simplicity</i></a> and <a
+  href="https://www.codesimplicity.com/buy-us/" target="_blank"
+  rel="noopener"><i>Understanding Software</i></a>. He was the primary author of
+  Google's code review guidelines, as well as the <a
+  href="https://linkedin.github.io/dph-framework/" target="_blank"
+  rel="noopener">LinkedIn Developer Productivity and Happiness Framework</a>.
+talkName: Code Simplicity Applied to AI Coding Agents
+photo: /src/assets/speakers/max-kanat-alexander/photo.jpg
+keynote: true
