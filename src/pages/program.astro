@@ -4,6 +4,10 @@ import Layout from '../layouts/Layout.astro';
 import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro';
 import "../styles/global.css";
+import { getCollection } from 'astro:content';
+
+const speakers = await getCollection('speakers');
+const keynote = speakers.find((s) => s.data.keynote);
 ---
 
 <Layout>
@@ -12,8 +16,35 @@ import "../styles/global.css";
 	<section class="py-20 px-4 bg-white flex-1 flex flex-col">
 		<div class="max-w-4xl mx-auto text-center">
 			<h1 class="text-4xl font-bold mb-4 text-navy">Program</h1>
-			<div class="w-16 h-1 bg-teal mx-auto mb-8"></div>
-			<p class="text-gray-600 text-lg">Coming soon. Check back for the full program and schedule.</p>
+			<div class="w-16 h-1 bg-teal mx-auto mb-12"></div>
+
+			<!-- 2026 Theme -->
+			<div class="bg-gradient-to-br from-teal to-pink rounded-2xl px-8 py-10 max-w-2xl mx-auto mb-10 text-center text-white shadow-sm">
+				<p class="text-xs font-bold uppercase tracking-[0.2em] mb-4 text-white/80">2026 Theme</p>
+				<h2 class="text-3xl sm:text-4xl font-bold mb-5 leading-tight">Shipping Software in the Age of AI</h2>
+				<p class="text-base sm:text-lg leading-relaxed text-white/95 max-w-xl mx-auto">
+					AI is reshaping how software is designed, built, operated, and governed — sometimes in useful ways, sometimes not. This year's program looks at what's actually happening in practice across the stack: where AI is earning its place in real systems, where it isn't, and what's changing for the people doing the work.
+				</p>
+			</div>
+
+			{keynote && (
+				<div class="bg-white border border-gray-200 rounded-2xl p-6 sm:p-8 max-w-2xl mx-auto mb-10 text-left shadow-sm">
+					<p class="text-pink font-bold text-xs uppercase tracking-[0.2em] mb-5">Keynote</p>
+					<div class="flex flex-col sm:flex-row gap-6 items-start">
+						{keynote.data.photo && (
+							<img src={keynote.data.photo.src} alt={keynote.data.name} class="w-32 h-32 rounded-full object-cover flex-shrink-0 mx-auto sm:mx-0" />
+						)}
+						<div class="flex-1">
+							<h3 class="text-2xl font-bold text-navy mb-1">{keynote.data.name}</h3>
+							<p class="text-teal text-sm font-medium mb-3">{keynote.data.title}</p>
+							<p class="text-navy font-semibold mb-3">"{keynote.data.talkName}"</p>
+							<p class="text-gray-600 text-sm leading-relaxed [&_a]:text-teal [&_a]:underline hover:[&_a]:text-teal/80" set:html={keynote.data.bio}></p>
+						</div>
+					</div>
+				</div>
+			)}
+
+			<p class="text-gray-600 text-lg">The full schedule is coming soon. Check back for talks, speakers, and session times.</p>
 		</div>
 	</section>
 

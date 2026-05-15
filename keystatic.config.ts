@@ -17,6 +17,7 @@ export default config({
           directory: 'src/assets/speakers',
           publicPath: '/src/assets/speakers/',
         }),
+        keynote: fields.checkbox({ label: 'Keynote', defaultValue: false }),
       },
     }),
     sponsors: collection({

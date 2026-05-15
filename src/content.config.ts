@@ -10,6 +10,7 @@ const speakers = defineCollection({
       bio: z.string(),
       talkName: z.string(),
       photo: image().optional(),
+      keynote: z.boolean().optional(),
     }),
 });
 
